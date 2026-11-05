@@ -1,0 +1,214 @@
+[
+  {
+    "id": 1,
+    "tipo": "vacunacion",
+    "titulo": "Vacunación contra el neumococo",
+    "fecha": "2026-11-16",
+    "hora": "09:30",
+    "lugar": "CESFAM Los Aromos",
+    "direccion": "Av. Los Aromos 1450",
+    "cupos_total": 120,
+    "cupos_disponibles": 64,
+    "requiere_inscripcion": false,
+    "descripcion": "Atención sin hora previa para personas de 65 años o más. Se debe llevar la cédula de identidad.",
+    "accesibilidad": [
+      "silla_ruedas",
+      "letra_grande"
+    ],
+    "contacto": "vacunas@cerroluminar.example"
+  },
+  {
+    "id": 2,
+    "tipo": "vacunacion",
+    "titulo": "Vacunación en terreno en la sede vecinal Las Lomas",
+    "fecha": "2026-11-19",
+    "hora": "10:00",
+    "lugar": "Sede vecinal Las Lomas",
+    "direccion": "Pasaje Los Alerces 220",
+    "cupos_total": 80,
+    "cupos_disponibles": 80,
+    "requiere_inscripcion": true,
+    "descripcion": "Equipo del CESFAM en la sede vecinal para quienes tienen dificultad para trasladarse. Requiere inscripción previa.",
+    "accesibilidad": [
+      "silla_ruedas",
+      "lengua_senas"
+    ],
+    "contacto": "vacunas@cerroluminar.example"
+  },
+  {
+    "id": 3,
+    "tipo": "evento",
+    "titulo": "Feria de la salud y el bienestar",
+    "fecha": "2026-11-25",
+    "hora": "11:00",
+    "lugar": "Plaza Cívica",
+    "direccion": "Av. Central 100",
+    "cupos_total": 0,
+    "cupos_disponibles": 0,
+    "requiere_inscripcion": false,
+    "descripcion": "Stands de control de presión, visión y audición, con música en vivo. Entrada libre.",
+    "accesibilidad": [
+      "silla_ruedas",
+      "lengua_senas",
+      "letra_grande"
+    ],
+    "contacto": "mayores@cerroluminar.example"
+  },
+  {
+    "id": 4,
+    "tipo": "evento",
+    "titulo": "Baile de salón de fin de año",
+    "fecha": "2026-12-12",
+    "hora": "16:00",
+    "lugar": "Gimnasio Municipal",
+    "direccion": "Calle Deportes 55",
+    "cupos_total": 200,
+    "cupos_disponibles": 35,
+    "requiere_inscripcion": true,
+    "descripcion": "Tarde de baile con orquesta, con zonas de descanso y sillas disponibles. Se sugiere llegar con anticipación.",
+    "accesibilidad": [
+      "silla_ruedas"
+    ],
+    "contacto": "mayores@cerroluminar.example"
+  },
+  {
+    "id": 5,
+    "tipo": "evento",
+    "titulo": "Paseo a la laguna Cristal",
+    "fecha": "2027-01-14",
+    "hora": "08:30",
+    "lugar": "Terminal municipal",
+    "direccion": "Av. Central 900",
+    "cupos_total": 40,
+    "cupos_disponibles": 0,
+    "requiere_inscripcion": true,
+    "descripcion": "Excursión de un día con transporte, almuerzo liviano y acompañamiento de monitores.",
+    "accesibilidad": [],
+    "contacto": "mayores@cerroluminar.example"
+  },
+  {
+    "id": 6,
+    "tipo": "curso",
+    "titulo": "Alfabetización digital, nivel inicial",
+    "fecha": "2026-11-23",
+    "hora": "15:00",
+    "lugar": "Biblioteca Municipal",
+    "direccion": "Calle Libros 12",
+    "cupos_total": 25,
+    "cupos_disponibles": 9,
+    "requiere_inscripcion": true,
+    "descripcion": "Curso de 8 sesiones para aprender a usar el celular, el correo y las videollamadas. Se facilitan equipos.",
+    "accesibilidad": [
+      "letra_grande",
+      "subtitulos"
+    ],
+    "contacto": "cursos@cerroluminar.example"
+  },
+  {
+    "id": 7,
+    "tipo": "curso",
+    "titulo": "Taller de huerto en casa",
+    "fecha": "2026-12-02",
+    "hora": "10:30",
+    "lugar": "Centro Comunitario El Arrayán",
+    "direccion": "Los Arrayanes 300",
+    "cupos_total": 20,
+    "cupos_disponibles": 12,
+    "requiere_inscripcion": true,
+    "descripcion": "Taller práctico de cultivo en maceteros y jardineras, con entrega de semillas.",
+    "accesibilidad": [
+      "silla_ruedas",
+      "lengua_senas"
+    ],
+    "contacto": "cursos@cerroluminar.example"
+  },
+  {
+    "id": 8,
+    "tipo": "curso",
+    "titulo": "Taller de memoria y estimulación cognitiva",
+    "fecha": "2026-12-09",
+    "hora": "11:00",
+    "lugar": "Centro Comunitario El Arrayán",
+    "direccion": "Los Arrayanes 300",
+    "cupos_total": 18,
+    "cupos_disponibles": 3,
+    "requiere_inscripcion": true,
+    "descripcion": "Ejercicios grupales de atención y memoria dirigidos por una terapeuta ocupacional.",
+    "accesibilidad": [
+      "letra_grande",
+      "subtitulos"
+    ],
+    "contacto": "cursos@cerroluminar.example"
+  },
+  {
+    "id": 9,
+    "tipo": "movilidad",
+    "titulo": "Gimnasia suave y equilibrio",
+    "fecha": "2026-11-18",
+    "hora": "09:00",
+    "lugar": "Gimnasio Municipal",
+    "direccion": "Calle Deportes 55",
+    "cupos_total": 30,
+    "cupos_disponibles": 14,
+    "requiere_inscripcion": true,
+    "descripcion": "Sesiones de ejercicio de bajo impacto para mejorar el equilibrio y prevenir caídas. Se recomienda ropa cómoda.",
+    "accesibilidad": [
+      "silla_ruedas"
+    ],
+    "contacto": "movilidad@cerroluminar.example"
+  },
+  {
+    "id": 10,
+    "tipo": "movilidad",
+    "titulo": "Caminata segura por el parque",
+    "fecha": "2026-11-27",
+    "hora": "08:45",
+    "lugar": "Parque Cerro Luminar",
+    "direccion": "Camino al Mirador s/n",
+    "cupos_total": 35,
+    "cupos_disponibles": 21,
+    "requiere_inscripcion": true,
+    "descripcion": "Recorrido guiado de 2 km por senderos planos, con pausas para descansar y monitores de apoyo.",
+    "accesibilidad": [
+      "silla_ruedas",
+      "lengua_senas"
+    ],
+    "contacto": "movilidad@cerroluminar.example"
+  },
+  {
+    "id": 11,
+    "tipo": "acompanamiento",
+    "titulo": "Círculo de conversación y té",
+    "fecha": "2026-11-20",
+    "hora": "16:30",
+    "lugar": "Sede vecinal Las Lomas",
+    "direccion": "Pasaje Los Alerces 220",
+    "cupos_total": 22,
+    "cupos_disponibles": 10,
+    "requiere_inscripcion": true,
+    "descripcion": "Espacio semanal para conversar, compartir y conocer vecinos y vecinas, acompañado por una dupla de voluntarios.",
+    "accesibilidad": [
+      "silla_ruedas",
+      "lengua_senas",
+      "subtitulos"
+    ],
+    "contacto": "mayores@cerroluminar.example"
+  },
+  {
+    "id": 12,
+    "tipo": "acompanamiento",
+    "titulo": "Programa Compañía en casa",
+    "fecha": "2026-12-01",
+    "hora": "12:00",
+    "lugar": "Visitas a domicilio",
+    "direccion": "Se coordina con la persona inscrita",
+    "cupos_total": 15,
+    "cupos_disponibles": 6,
+    "requiere_inscripcion": true,
+    "descripcion": "Visitas semanales de voluntarios capacitados a personas que viven solas. La coordinación se realiza por correo o mensaje de texto.",
+    "accesibilidad": [
+      "letra_grande"
+    ],
+    "contacto": "acompanamiento@cerroluminar.example"
+  }
+]
